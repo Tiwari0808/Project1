@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/mystyle.css">
+
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg3.jpg');
+        /* background-size: cover/; */
+        height: 800px;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        /* font-family: 'Kanit', sans-serif; */
+        /* opacity: ; */
+    }
+    .top1{
+          border: 2px solid greenyellow;
+          position: absolute;
+          display: inline-block;
+          left: 30px;
+          top: 30px;
+          width: 100px;
+          border-style: none;
+ } 
+
+    .top2{
+        border: 2px solid greenyellow;
+      display: block;
+      width: 55%;
+margin: 0px auto;
+position: absolute;
+top: 55px;
+left: 270px;
+opacity: 80%;
+border-style: none;
+    }
+
+    .top3{
+        border: 2px solid greenyellow;
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        /* font-size: 0px; */
+        border-style: none;
+        /* width: px; */
+    }
+
+    .navbar{
+display: inline-block;
+    }
+
+    .navbar li{
+display: inline-block;
+font-size: 25px;
+    }
+
+    .navbar li a{
+color: white;
+text-decoration: none  ;
+padding: 20px 20px
+    }
+  
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+}
+
+.top1 img{
+    width: 80px;
+}
+
+.top1 div{
+    text-align: center;
+    font-size: 20px;
+    opacity: 100%;
+    width: fit-content;
+}
+
+.btn{
+    font-family: 'Bebas Neue', cursive;
+    margin: 10px 20px;
+    background-color:black;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 120px;
+}
+
+.btn:hover{
+    background-color: rgb(83, 80, 80);
+}
+
+.container{
+    border: 1px solid white;
+    width: 33%;
+    border-radius: 10px;
+    margin:200px 50px ;
+    padding: 20px;
+}
+
+.form-grp input{
+text-align: center;
+display: block;
+width: 350px;
+padding: 10px;
+border: 1px solid white;
+border-radius: 5px;
+margin: 10px auto;
+font-size: 15px;
+}
+.container h1{
+  text-align: center ; 
+  font-size: 50px; 
+}
+.container button{
+display: block;
+width: 200px;
+margin: 15px auto;
+padding: 2px;
+border-radius: 25px;
+}
+</style>
+
+
+<body>
+    <header class="header">
+
+        <div class="top1">
+            <img src="img/gym2.jpeg" alt="">
+            <div>Club Fitness</div>
+        </div>
+
+        <div class="top2">
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a> </li>
+                <li><a href="#">Fitness Calaulator</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+
+    <div class="top3">
+<button class="btn">Call Us</button>
+<button class="btn">Email Us</button>
+     </div>
+</header>
+
+<div class="container">
+<h1>Join the best gym of Pune now</h1>
+ <form action="noaction.php">
+      <div class="form-grp">
+        <input type="text" placeholder="Enter Your Name">
+      </div>
+      <div class="form-grp">
+        <input type="text" placeholder="Enter Your Age">
+      </div>
+      <div class="form-grp">
+        <input type="text" placeholder="Enter Your Contact No.">
+      </div>
+      <div class="form-grp">
+        <input type="text" placeholder="Enter Your Email">
+      </div>
+<button class="btn">Submit</button>
+ </form>   
+</div>
+</body>
+</html>
